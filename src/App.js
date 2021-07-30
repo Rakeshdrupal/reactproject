@@ -18,12 +18,12 @@ import Recovery from './pages/Recovery';
 
 
 const App = props => {
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-  // useEffect(() => {
-  //   dispatch(checkUserSession());
+  useEffect(() => {
+    dispatch(checkUserSession());
 
-  // }, []);
+  }, []);
 
   return (
     <div className="App">
